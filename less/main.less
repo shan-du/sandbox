@@ -1,0 +1,26 @@
+// Theme colors
+@theme-red:#B40404;
+@theme-gold:#FCCC00;
+@theme-beige:#E4E3CE;
+@theme-navy:#2A3F4D;
+@white:#FFF;
+
+// Mixins
+.links {
+	color:@theme-red;
+	background-color:@white;
+	transition:background-color 0.2s ease-out;
+	
+	&:hover, &:focus {
+		background-color:@theme-gold;
+	}
+}
+
+body {
+	color:@theme-navy;
+	background-color:@theme-beige;
+}
+
+a {
+	.links
+}

@@ -1,0 +1,25 @@
+{
+  "name": "sdu-sandbox",
+  "version": "0.0.0",
+  "description": "Shan's web experienments play ground",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shan-du/sandbox.git"
+  },
+  "author": "Shan Du <shan.du.sdu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shan-du/sandbox/issues"
+  },
+  "homepage": "https://github.com/shan-du/sandbox#readme",
+	"dependencies": {
+		"grunt": ">=0.4.0",
+		"grunt-contrib-less": "^1.0.0",
+		"grunt-contrib-cssmin": "^0.13.0",
+		"grunt-contrib-watch": "^0.6.1"
+	}
+}

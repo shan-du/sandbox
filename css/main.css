@@ -1,0 +1,22 @@
+.links {
+  color: #b40404;
+  background-color: #ffffff;
+  transition: background-color 0.2s ease-out;
+}
+.links:hover,
+.links:focus {
+  background-color: #fccc00;
+}
+body {
+  color: #2a3f4d;
+  background-color: #e4e3ce;
+}
+a {
+  color: #b40404;
+  background-color: #ffffff;
+  transition: background-color 0.2s ease-out;
+}
+a:hover,
+a:focus {
+  background-color: #fccc00;
+}
