@@ -6,7 +6,14 @@
 @white:#FFF;
 
 // Mixins
-.links {
+
+body {
+	color:@theme-navy;
+	font:1em/14px Arial,Helvetica,Sans-Serif;
+	background-color:@theme-beige;
+}
+
+a {
 	color:@theme-red;
 	background-color:@white;
 	transition:background-color 0.2s ease-out;
@@ -14,13 +21,4 @@
 	&:hover, &:focus {
 		background-color:@theme-gold;
 	}
-}
-
-body {
-	color:@theme-navy;
-	background-color:@theme-beige;
-}
-
-a {
-	.links
 }

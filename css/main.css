@@ -1,14 +1,6 @@
-.links {
-  color: #b40404;
-  background-color: #ffffff;
-  transition: background-color 0.2s ease-out;
-}
-.links:hover,
-.links:focus {
-  background-color: #fccc00;
-}
 body {
   color: #2a3f4d;
+  font: 1em/14px Arial, Helvetica, Sans-Serif;
   background-color: #e4e3ce;
 }
 a {

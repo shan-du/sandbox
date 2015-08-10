@@ -1,29 +1,58 @@
-## Node.js
-lib-cov
-*.seed
+# Ignore docs files
+_gh_pages
+_site
+.ruby-version
+
+# Numerous always-ignore extensions
+*.diff
+*.err
 *.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+*~
+*.seed
 *.csv
 *.dat
 *.out
 *.pid
 *.gz
+*.psd
+
+# OS or Editor folders
+._*
+.cache
+.DS_Store
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.idea
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+nbproject
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Node.js
+lib-cov
 pids
 logs
 results
 npm-debug.log
 node_modules
+bower_components
 
-## OS X
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.Spotlight-V100
-.Trashes
-
-## Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
+# Komodo
+.komodotools
+*.komodoproject
