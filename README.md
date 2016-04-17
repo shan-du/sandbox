@@ -3,6 +3,7 @@
 ```
 > npm install
 > npm install matchdep
+> npm install -g grunt-cli
 ```
 
 ## Start Local Dev
